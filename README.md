@@ -50,6 +50,26 @@ animate --show --range 0x1F600:10
 animate -i [START_ADDRESS]
 ```
 
+```
+┌─ Unicode Browser ─────────────────────────────────
+│ Range: 0x0AB20-0x0AB29
+│ Step: 10                      Selected: (none)
+└───────────────────────────────────────────────────
+[0] U+AB20   ( 43808) ꬠ
+[1] U+AB21   ( 43809) ꬡ
+[2] U+AB22   ( 43810) ꬢ
+[3] U+AB23   ( 43811) ꬣ
+[4] U+AB24   ( 43812) ꬤ
+[5] U+AB25   ( 43813) ꬥ
+[6] U+AB26   ( 43814) ꬦ
+[7] U+AB27   ( 43815) ꬧
+[8] U+AB28   ( 43816) ꬨ
+[9] U+AB29   ( 43817) ꬩ
+
+0-9:select | n:next p:prev | j:+100 k:-100 | J:+1000 K:-1000
++/-:step size | g:goto | s:save q:quit
+```
+
 **Controls:**
 - `0-9` — Select character (allows duplicates for sequences)
 - `n/p` — Next/previous by step size (default: 10)
