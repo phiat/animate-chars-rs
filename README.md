@@ -2,7 +2,7 @@
 
 ![Demo](cham-dog.gif)
 
-A CLI tool for animating Unicode characters and browsing the entire Unicode space. Written in Rust, ported from the original bash implementation.
+A CLI tool for animating Unicode characters and browsing the entire Unicode space. Written in Rust, ported from the [original bash implementation](https://github.com/phiat/animate-chars).
 
 ## Features
 
@@ -130,4 +130,4 @@ MIT
 
 ## Related
 
-- [abra-bail](https://github.com/phiat/abra-bail) - Original bash implementation
+- [animate-chars](https://github.com/phiat/animate-chars) - Original bash implementation
